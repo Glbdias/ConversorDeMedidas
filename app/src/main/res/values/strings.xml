@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">conversorMedidas</string>
+    <string name="lblDe">De</string>
+    <string name="lblPara">Para</string>
+    <string name="rbPolegadaCentimetro">Polegadas para Centímetros</string>
+    <string name="rbCentimetroPolegada">Centímetros para Polegadas</string>
+    <string name="rbPesMetros">Pés para Metros</string>
+    <string name="rbMetrosPes">Metros para Pés</string>
+    <string name="rbMilhaKm">Milhas para Km</string>
+    <string name="rbQuilosLibras">Quilos para Libras</string>
+    <string name="btnConverter">Converter</string>
+    <string name="btnLimpar">Limpar</string>
+</resources>

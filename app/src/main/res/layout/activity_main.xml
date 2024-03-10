@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/lblDe" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/lblPara" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="424dp"
+            android:layout_height="300dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/txtDe"
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/txtPara"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbPolegadasCen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rbPolegadaCentimetro" />
+
+            <RadioButton
+                android:id="@+id/rbCentimetroPol"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rbCentimetroPolegada" />
+
+            <RadioButton
+                android:id="@+id/rbPesMetros"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rbPesMetros" />
+
+            <RadioButton
+                android:id="@+id/rbMetrosPes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rbMetrosPes" />
+
+            <RadioButton
+                android:id="@+id/rbMilhaKm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rbMilhaKm" />
+
+            <RadioButton
+                android:id="@+id/rbQuilosLibras"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rbQuilosLibras" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnConverter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00BCD4"
+            android:text="@string/btnConverter"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnLimpar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#BA1616"
+            android:text="@string/btnLimpar"
+            android:textColorHighlight="#D11818"
+            android:textColorLink="#AA1F1F" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
